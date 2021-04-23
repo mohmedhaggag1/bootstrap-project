@@ -1,0 +1,55 @@
+/*Start Section Media Quary*/
+
+/* smartphone and tablets */
+@media(max-width:767px)
+ {
+ 
+  
+.navbar-inverse .navbar-nav>li >a
+    {
+        padding-top: 10px; 
+        padding-bottom: 10px;
+        
+    }
+  
+    .subscribe .form-control{
+        margin: 20px auto;
+        width: 400px;
+    }
+
+    navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+    .our-team .team .person img
+    {
+        width: 80px;
+        height: 80px;
+
+    }
+    
+    .our-team .team
+    {
+        height: 920px;
+        padding-top: none;
+    } 
+
+}
+  
+  /*  small Screen*/
+  @media(min-width:768px) and (max-width:991px){
+  
+    
+  }
+  
+  /*Mediam Screen*/
+  @media(min-width:992px) and (max-width:1199px)
+  {
+      
+  }
+  
+  /*Large Screen*/
+  @media(min-width:1200px){
+     
+  }
+  
+  /*End Media Quary */

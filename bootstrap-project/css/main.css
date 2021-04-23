@@ -1,0 +1,636 @@
+/*
+
+Theme Name: EliteCorp
+Theme Coder: haggag
+
+PSD designer: 
+
+
+*/
+
+/* .os{
+    background-color: rosybrown;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.os2{
+    background-color: red;
+    margin-bottom: 10px;
+    padding: 10px;
+} */
+
+body{
+    padding-top: 60px;
+}
+
+h1 ,h2 ,h3 ,h4 h5, .lead{
+    font-family: 'Droid Sans',sans-serif;
+}
+.container>.navbar-header :hover {
+
+    color: red;
+    background-color:black;
+    border-radius: 10px;
+    
+}
+.navbar-brand {
+    color: red;
+    background-color:white;
+    font-size: 40px;
+    border-radius: 10px;
+    
+}
+
+
+.navbar-default 
+.navbar-nav>
+.open>a, 
+.navbar-default 
+.navbar-nav>
+.open>a:hover, 
+.navbar-default
+ .navbar-nav>
+ .open>a:focus:hover
+ {
+
+    background-color: rgb(122, 207, 233);
+    
+ }
+
+ .dropdown-menu{
+    padding: 6px 20px;
+    color:#fff;
+     -webkit-transition: padding 0.5s ease;
+     -moz-transition: padding 0.5s ease;
+     -o-transition: padding 0.5s ease;
+     transition: padding 0.5s ease;
+     
+ }
+ .navbar-right .dropdown-menu{
+
+    left: 0;
+    right: auto;
+    
+ }
+
+ .dropdown-menu>li>a:hover{
+     color: #fff;
+     background-color: #e41b17;
+     border: 2.5px solid black;
+
+ }
+
+ .navbar-nav>li>a {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-size: 18px;
+ }
+ .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a{
+     background-color: red;
+ }
+
+                   /*  carosul --slide show */
+
+ .carousel-caption{
+     bottom:100px;
+    background-color: rgba(3,3, 3,0.4 );
+ }
+ .carousel-inner>.item>img   /*   لو في صوره صغيره مش  واخده المساحه كلها */
+ {   width: 100%;
+
+ }
+ /*عشان اتحكم في الوقت فيديو 14 الدقيقه 14*/
+
+/*Start Video #51 Bread crumb Section*/
+ .breadcruumb-holder{
+     background-color: #f5f5f5;
+ }
+
+ .breadcruumb{
+     margin: 0;
+     padding:  0;;
+ }
+
+
+
+/*End Video #51 Bread crumb Section*/
+
+ /* section about video 15*/
+ .about{
+     padding-top: 60px;
+     padding-bottom: 60px;
+     }
+
+.about.lead{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.about h1{
+    font-weight: bold;
+}
+.about h1 span{
+    color: #e41b17;
+}
+
+/* section features video 16*/
+.featurs{
+
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Feat{
+    margin-bottom:30px;
+}
+.featurs h1{
+    padding-bottom: 50px;
+}
+.featurs.Feat p{
+
+    line-height: 2em;
+}
+.featurs .Feat span.glyphicon{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* start - testemonial section video 17 & 18 & 20*/
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials  h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.testimonials .lead{
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+.item span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #e41b17;
+}
+
+.testimonials .carousel-inner{
+    min-height: 160px;
+}
+
+.testimonials .carousel-indiccators{
+position: static;
+width: 100%;
+margin-left: auto;
+padding-top: 20px;
+}
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    opacity: 0.5; /* للشفافيه */
+    border: 3px solid white;
+
+    border-radius: 50%; /* اعمل دايره واحط جواها الصوره من غير زيادات  */
+    overflow: hidden;
+    margin: 5px;
+
+    -webkit-transition: all 0.8s ease;   /*transition*/
+     -moz-transition: all 0.8s ease;
+     -o-transition: all 0.8s ease;
+     transition: all 0.8s ease;
+}
+
+.testimonials .carousel-indicators li.active{
+    opacity: 1;
+    width: 80px;
+    height: 80px;
+    border: 1px solid red
+}
+
+.testimonials .carousel-indicators li img{
+max-width: 100%;
+/* opacity: 0.5; */
+}
+.carousel-indicators {
+    bottom: -30px;
+}
+
+/* start video 20 price table*/
+
+.Price-table{
+    background-color: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Price-table h1{
+
+    margin-bottom: 40px;
+}
+
+.Price-table .Price-box{
+
+    background-color: #fff;
+    padding: 10px;
+    border: 10px solid #DDD;
+}
+
+.Price-table .Price-box h2{
+    margin: 5px 0 15;
+}
+
+
+.Price-table .Price-box:hover p{
+
+    -webkit-transform:scale(1.1,1.1) rotate(360deg);   /*transform and rotate */
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #dfdfdf;
+}
+
+.Price-table .Price-box p{
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #f3f3f3; /*عشان اعمل السعر في دايره  بس بستخدم كلاس سنتر-بلوك في الاتش تي ام ال */
+    line-height: 100px;
+
+    -webkit-transition: 0.7s;   /*transition*/
+     -moz-transition: 0.7s;
+     -o-transition: 0.7s;
+     transition: 0.7s ;
+
+}
+
+
+.Price-table .Price-box ul{
+    line-height: 250%;
+    font-size: 18px;
+
+}
+.Price-table .Price-box a{
+    margin-bottom: 5px;
+}
+
+/* start video 22 section  Our team */
+
+.our-team{
+    background:url(../img/hero-bg.jpg) no-repeat center center fixed;
+    width: 100%;
+    min-height: 650px;
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;    /* عشان لما اعمل زووووم(اصغر) في المتصفح الصوره تاخد المساحه كلها */
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.our-team .team{
+    background: rgba(2,2, 2,0.7 );
+    color: #fff;
+    height: 650px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.our-team .team h1{
+    margin-bottom: 120px;
+}
+
+.our-team .team .person img{
+    width: 120px;
+    height: 120px;
+}
+
+/*start video 25 section subscribe */
+
+.subscribe{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #eee;;
+}
+
+.subscribe h1{
+    color: #888;;
+    letter-spacing: 2px; /* مسافه بين الحروف */
+    margin-bottom: 20px;
+}
+
+.subscribe p{
+    margin-bottom: 30px;
+}
+.subscribe .form-control{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+.subscribe button{
+    border-radius: 0;;
+}
+
+/*start video 26 section statistics*/
+
+.statistics{
+    background: url(../img/stat.jpg) no-repeat center center fixed;
+    min-height: 300px;
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;    /* عشان لما اعمل زووووم(اصغر) في المتصفح الصوره تاخد المساحه كلها */
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.statistics .data{
+    background-color: rgba(2,2, 2,0.75 );
+    min-height: 500px;
+    color: white;
+    padding-bottom: 40px;
+    padding-top:40px;
+
+}
+
+.statistics .data h1{
+    margin-bottom:60px;
+    
+}
+
+.statistics .data svg{
+    width:70px; height:70px;
+    padding-top: 15px;
+    
+}
+
+.statistics .data .stats p{
+    font-size: 60px;
+    font-weight: 800px;
+    
+}
+
+.statistics .data .stats span{
+    font-size: 20px;
+    
+}
+
+/*<!---start video 27 section Our skills-->*/
+
+.Our-skills{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.Our-skills h1{
+ margin-bottom: 60px;
+}
+
+.Our-skills h3{
+
+    margin-top: 0;
+    font-weight: bold ;
+}
+
+.Our-skills .progress{
+    height: 38px;
+}
+
+.Our-skills .progress-bar{
+   line-height: 38px;
+   font-size: 15px;
+   font-weight: bold;
+   text-align: left;
+   text-indent: 10px; /* ببعد الكلام عن الحافه */
+
+}
+
+/*start section contact_Us video 29*/
+
+.contact-us{
+    background: url(../img/Contact.jpg) no-repeat center center fixed;
+    min-height: 300px;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;    /* عشان لما اعمل زووووم(اصغر) في المتصفح الصوره تاخد المساحه كلها */
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.feld{ 
+    background: rgba(2,2, 2,0.75 );
+    min-height: 300px;
+    color: seashell;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-us p{
+    margin-bottom: 40px;
+}
+
+.contact-us textarea{
+    height: 108px;;
+}
+
+/*عشان اغير لون ال فورم  للغامق او اللوناللي احتاجه*/
+/* 
+
+.contact-us input[type="text"],
+.contact-us textarea{
+    background: rgba(82,78, 78,0.7 );
+    color: #fff;
+    border: none;
+} */
+
+/* <!--Start Section Our-Clients Video 30--> *//**/
+
+.Our-Clients{
+    background: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Our-Clients img{
+    opacity: 0.4;
+    filter: alpha( opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Our-Clients img:hover{
+    opacity: 1;
+    -webkit-transition: 0.4s;   /*transition*/
+     -moz-transition: 0.4s;
+     -o-transition: 0.4s;
+     transition: 0.4s;
+
+
+}
+
+/*Section footer Video 32 */
+
+
+.footer
+{
+    background: #111;
+    color: #AAA;
+    padding-top: 20px;
+}
+
+.footer a{
+    color: #AAA;
+}
+
+.footer a :hover{color: #fff;}
+
+.footer h3{
+    color: #0895d1;
+    letter-spacing: 1px; 
+    margin: 30px 0 20px;
+}
+
+.footer .three-coulms{
+    overflow: hidden;
+}
+
+
+.footer .three-coulms li{
+    width: 33.33333%;
+    float: left;
+    padding: 5px 0;
+}
+
+.footer .social{
+
+    margin: 20px 0 10;
+    overflow: hidden;
+}
+
+.social li{
+
+    float: left;
+    padding: 7px;
+    
+}
+.im{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.im-4{
+    width: 120px;
+    height: 120px;
+}
+
+.footer .img-thumbnail{
+    background: rgba(248, 247, 247, .9);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+
+.copy-right{
+    background: #333;
+    color: #aaa;
+    padding: 15px 0px;
+
+}
+
+.footer .copy-right{
+    background: #333;
+    color: #AAA;
+    padding: 15px 0px;
+    margin-top: 20px;
+    font-size: 18px
+}
+
+
+.footer .copy-right span{
+    color: #0895d1;
+}
+
+/*start video 36*/
+/* .option-box{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+}
+.option-box .color-option {
+    float:left;
+    background:#333;
+    color:#fff;
+    padding: 10px;
+    width: 200px;
+    border: 4px solid #E41B17
+
+}
+
+.option-box .color-option ul li{
+    width:20px;
+    height:20px;
+    background: red;
+    display: inline-block;
+    margin-right:3px ;
+
+
+} 
+
+
+.option-box .color-option.gear{
+
+padding: 5px;
+background:#E41B17 ;
+color: #fff;
+cursor: pointer;
+} */
+
+/*video 37 & 38 cont to Video 36 and nedded JQ*/
+
+/* Video 39 Start Section Loading*/
+
+/* .loading-overlay{
+background:#222;
+position: fixed ;
+color: white;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: 99999;
+
+
+} */
+
+.breadcrumb{
+    font-size: 20px;
+    margin-top: 8px;
+}
+/*video 52 Accordion*/
+.faq{
+padding: 40px 0;
+}
+
+.faq h1{
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -3px;
+}
+
+.faq h1~hr{
+width: 70%;
+}
+
+.faq-question .panel-headings{
+
+    padding: 20px 15px;
+    
+} 
+
+.fas{
+    float: right;
+}
